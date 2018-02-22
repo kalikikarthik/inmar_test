@@ -12,7 +12,7 @@
 #
 
 # NOTES:
-#   - The remote Github repo is here: https://github.com/HariKrishnaTulzapur/DevOpsTest.git
+#   - The remote Github repo is here: https://github.com/kalikikarthik/inmar_test.git
 #   - The actual service is a mocked up HTTP server using Python.
 #   - The execution server is Ubuntu and the destination server is Ubuntu.
 #   - Both servers have a 'testuser' account and the SSH keys are setup from exection --> destination.
@@ -22,7 +22,7 @@
 #       + init.d.node --> /etc/init.d/node
 #       + sudoers.d.testuser --> /etc/sudoers.d/testuser
 
-# Configuration
+
 REPO=https://github.com/kalikikarthik/mycode.git
 DEST=/home/testuser/mycode
 OWNER=testuser
